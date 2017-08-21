@@ -28,18 +28,18 @@
     {% endif %}
 </div>
 
-<!--    <h2>Most Liked Pages</h2>
+<h2>Most Liked Pages</h2>
 <div>
     {% if pages %}
     <ul>
         {% for page in pages %}
-        <li>{{ page.name }}</li>
+        <li><a href="{{ page.url}}">{{ page.title }}</a></li>
         {% endfor %}
     </ul>
     {% else %}
     <strong>We have no popular pages at the moment.</strong>
     {% endif %}
-</div>-->
+</div>
 
 <div>
     <a href="/rango/about/">About</a><br />
